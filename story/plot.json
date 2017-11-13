@@ -1,0 +1,47 @@
+{
+	"title": "Labyrinth",
+	"chapters": [
+		{
+			"id": 1,
+			"chapter_title": "The yellow wood",
+			"prose": "You find yourself on a path through an unfamiliar forest on the cusp of winter. Watery sunlight shines through the yellow canopy, and the woods are alive with the sound of a cool wind crackling through fallen leaves.",
+			"choices": [
+				{
+					"option": "Go north",
+					"link_to": 2
+				},
+				{
+					"option": "Go south",
+					"link_to": 3
+				}
+			]
+		},
+		{
+			"id": 2,
+			"chapter_title": "The northern path",
+			"prose": "You walk north, away from the forest, into the mountains, up and up and up.",
+			"is_death": true
+		},
+		{
+			"id": 3,
+			"chapter_title": "Southwards",
+			"prose": "You choose the southern path. After a long time walking through the forest you come to the sea.",
+			"choices": [
+				{
+					"option": "Go north",
+					"link_to": 1
+				},
+				{
+					"option": "Dive",
+					"link_to": 4
+				}
+			]
+		},
+		{
+			"id": 4,
+			"chapter_title": "The clifftop",
+			"prose": "The wine-dark sea rumbles far beneath you. You leap.",
+			"is_death": true
+		}
+	]
+}
